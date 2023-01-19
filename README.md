@@ -68,3 +68,10 @@ print(len(grades))
 ```
 # Contribute
 Any pull requests are welcome.
+You can set up a development environment like this:
+```
+git clone https://github.com/YOU/YOUR_FORK.git .
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+```
