@@ -5,7 +5,7 @@ with open("README.md", "r") as f:
 
 setuptools.setup(
     name="pylibrus",
-    version="0.0.0",
+    version="0.0.1",
     author="Joachim Kołodziejski",
     author_email="kolodziejski.joachim@gmail.com",
     description="Librus (polish school e-register) unofficial API client written in Python.",
