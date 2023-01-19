@@ -3,10 +3,10 @@ from pylibrus.exceptions import *
 from urllib.parse import quote as urlencode
 
 class Librus:
-    def __init__(self, token):
-        self.token = token
+    def __init__(self, access_token):
+        self.access_token = access_token
     def getResource(self, name):
-        res = base_get_rq("/2.0/{}".format(urlencode(name, safe="/?&")), access_token=self.token.access_token)
+        res = base_get_rq("/2.0/{}".format(urlencode(name, safe="/?&")), access_token=self.access_token)
         if res.status_code != 200:
             raise APIError(f"Status code: {res.status_code}, Response: {res.json()}")
             return
