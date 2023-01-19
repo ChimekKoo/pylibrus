@@ -6,8 +6,9 @@
 Librus (polish school e-register) unofficial API client written in Python.
 
 # Installation
-Clone the repo and use `pylibrus` folder as the module.
-PIP package is not available yet.
+```
+pip3 install pylibrus
+```
 
 # Usage
 (Replace every field containing 'your' with your data)
