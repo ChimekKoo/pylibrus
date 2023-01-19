@@ -18,6 +18,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    project_urls={
+        'Source': 'https://github.com/ChimekKoo/pylibrus',
+        'Bug Tracker': 'https://github.com/ChimekKoo/pylibrus/issues',
+    },
     install_requires = [
         'requests>=2.0.0'
     ]
