@@ -1,13 +1,14 @@
 # PyLibrus
 
 [![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://stand-with-ukraine.pp.ua)
+![PyPI](https://img.shields.io/pypi/v/pylibrus?label=PyPI&logo=pypi&logoColor=white)
 ![License MIT](https://img.shields.io/github/license/ChimekKoo/pylibrus)
 
 Librus (polish school e-register) unofficial API client written in Python.
 
 # Installation
 ```
-pip3 install pylibrus
+pip install pylibrus
 ```
 
 # Usage
